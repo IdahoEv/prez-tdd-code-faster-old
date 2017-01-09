@@ -1,0 +1,27 @@
+function DoAThing(input1, input2) {
+  if something {
+    if something_else {
+      value = 1
+    }
+    this_happens_in_both_branches;
+  } else if another_thing {
+    case condition:
+    when option_a: {
+      // do something;
+    }
+    when option_b: {
+      // do somethingelse;
+    }
+    when option_c: {
+      // do another thing;
+    }
+  }  
+  if even_number(value) {  
+    if something() {
+      // do one thing
+    } else {
+      // do another
+    }
+  }
+  return thing ? some_result || other : default;
+}
