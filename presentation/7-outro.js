@@ -28,9 +28,9 @@ export const Title = {
         <Heading size={1} fit lineHeight={1} textColor="white">
           Thanks!
         </Heading>
-        
+
         <Heading size={4} textColor="white">
-          Evan Dorn - LootCrate
+          Evan Dorn - Honey
         </Heading>
         </div>
 };
@@ -45,4 +45,3 @@ var savedForLater = {
     </Heading>
 
 }
-

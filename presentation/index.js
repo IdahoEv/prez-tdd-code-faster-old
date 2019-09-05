@@ -1,6 +1,9 @@
 import React from "react";
 import { Deck, Spectacle } from "spectacle";
 import slidify from "../src/slidify.js";
+import codeSlidify from "../src/slidify.js";
+import CodeSlide from 'spectacle-code-slide';
+
 
 // Require CSS
 require("normalize.css");
@@ -26,13 +29,13 @@ export default () => {
       <Spectacle theme={theme}>
           <Deck transition={["slide"]} transitionDuration={350}>
               {slidify(Title.Title)}
-              
+
               {slidify(Intro.Title)}
               {slidify(Intro.Demand)}
               {slidify(Intro.Workflow1)}
               {slidify(Intro.Stress)}
               {slidify(Intro.Fortunately)}
-              
+
               {slidify(Plan.Title)}
               {slidify(Plan.Smart)}
               {slidify(Plan.Liability)}
@@ -49,14 +52,14 @@ export default () => {
               {slidify(Plan.Why4)}
               {slidify(Plan.Programmers)}
               {slidify(Plan.Validation)}
-              
+
               {slidify(TDD.Title)}
               {slidify(TDD.Quip)}
               {slidify(TDD.Defined)}
               {slidify(TDD.Defined2)}
               {slidify(TDD.Defined3)}
               {slidify(TDD.SoftwareEngineering)}
-              
+
               {slidify(Better.Title)}
               {slidify(Better.Starting)}
               {slidify(Better.Planning)}
@@ -67,13 +70,14 @@ export default () => {
               {slidify(Better.DeepIf)}
               {slidify(Better.CleanCode3)}
               {slidify(Better.CleanCode4)}
-              
+
               {slidify(Faster.Title)}
               {slidify(Faster.Speed)}
               {slidify(Faster.OldTimeline)}
               {slidify(Faster.TimelineZoom)}
               {slidify(Faster.Validation)}
               {slidify(Faster.TestsFasterValidation)}
+              {slidify(Faster.SwitchWindows)}
               {slidify(Faster.TimelineTDD1)}
               {slidify(Faster.Coding)}
               {slidify(Faster.TimelineTDD2)}
@@ -83,7 +87,7 @@ export default () => {
               {slidify(Faster.DeepIf)}
               {slidify(Faster.SpeedBenefits)}
 
-              
+
               {slidify(Caveats.Title)}
               {slidify(Caveats.MasteringTakesTime)}
               {slidify(Caveats.NotForEverything)}
@@ -91,11 +95,21 @@ export default () => {
               {slidify(Caveats.ExploratoryCoding2)}
 
               {slidify(Demo.Title)}
+              {slidify(Demo.OnAnAirplane)}
               {slidify(Demo.Task)}
-              {slidify(Demo.DictDir)}
+              {slidify(Demo.Process)}
               {slidify(Demo.Demo00)}
+              {slidify(Demo.DictDir)}
+              {slidify(Demo.Demo00a)}
+              {slidify(Demo.Demo00b)}
+              {slidify(Demo.Disaster)}
+              {slidify(Demo.Disaster2)}
+              {slidify(Demo.Disaster3)}
+              {slidify(Demo.Okay)}
               {slidify(Demo.Demo01)}
               {slidify(Demo.Demo02)}
+              {slidify(Demo.BetterProcess)}
+              {slidify(Demo.BetterProcessB)}
               {slidify(Demo.Demo03)}
               {slidify(Demo.Demo04)}
               {slidify(Demo.Demo05)}
@@ -105,7 +119,7 @@ export default () => {
               {slidify(Demo.Demo09)}
               {slidify(Demo.Demo10)}
               {slidify(Demo.Demo11)}
-                        
+
               {slidify(Outro.Title)}
           </Deck>
       </Spectacle>

@@ -29,10 +29,10 @@ export const Title = {
           Test-Driven Development
         </Heading>
         <Heading size={2} fit caps textColor="white">
-          Write Better Code, Faster. 
+          Write Better Code, Faster.
         </Heading>
         <Heading size={4} textColor="black">
-          Evan Dorn - LootCrate
+          Evan Dorn - Honey
         </Heading>
     </div>
 };
@@ -45,20 +45,20 @@ export const AboutMe = {
             </Heading>
             <Heading size={2}  textColor="tertiary" >
                 @IdahoEv
-            </Heading>            
+            </Heading>
 
     </div>
 }
 
 var savedForLater = {
-  slide: () => 
+  slide: () =>
 
-  
+
           <Heading size={4} textColor="black" margin="1em auto">
             Slides and Code Examples:
             <Link href="https://github.com/IdahoEv/prez-tdd-code-faster">
               <Text bold textColor="tertiary">https://github.com/IdahoEv/prez-tdd-code-faster</Text>
             </Link>
           </Heading>
-  
+
 }

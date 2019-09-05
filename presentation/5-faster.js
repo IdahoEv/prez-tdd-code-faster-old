@@ -39,7 +39,7 @@ export const Title = {
 };
 
 export const Speed = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} fit>
         Okay, so TDD&#39;s cleaner.
@@ -47,18 +47,18 @@ export const Speed = {
       <Appear><Heading size={2} fit>
         But is it really <em>faster?</em>
       </Heading></Appear>
-    </div>      
+    </div>
 };
 
 
 export const OldTimeline = {
   slide: () =>
-  <Image src={images.timeline1.replace("/", "")} margin="0" width="100%"></Image>    
+  <Image src={images.timeline1.replace("/", "")} margin="0" width="100%"></Image>
 };
 
 export const TimelineZoom = {
   slide: () =>
-  <Image src={images.timeline3.replace("/", "")} margin="0" width="100%"></Image>    
+  <Image src={images.timeline3.replace("/", "")} margin="0" width="100%"></Image>
 };
 
 export const Validation = {
@@ -88,16 +88,30 @@ export const TestsFasterValidation = {
   </div>
 };
 
+export const SwitchWindows = {
+  slide: () =>
+  <div>
+    <Heading size={1} fit>
+      Every time you switch windows
+    </Heading>
+    <div>
+    <Appear><Heading size={2} fit>Your brain needs 15 seconds</Heading></Appear>
+    <Appear><Heading size={2} textColor="black" fit>To rebuild visual context</Heading></Appear>
+    </div>
+  </div>
+};
+
+
 export const TimelineTDD1 = {
   slide: () =>
   <div>
-    <Image src={images.timeline4.replace("/", "")} margin="1em auto" width="100%"></Image>   
+    <Image src={images.timeline4.replace("/", "")} margin="1em auto" width="100%"></Image>
     <Appear>
       <div>
         <Image src={images.arrow.replace("/", "")} margin="0 auto"></Image>
-        <Image src={images.timeline5.replace("/", "")} margin="1em auto" width="100%"></Image>                
-      </div>      
-    </Appear>         
+        <Image src={images.timeline5.replace("/", "")} margin="1em auto" width="100%"></Image>
+      </div>
+    </Appear>
   </div>
 };
 
@@ -118,19 +132,19 @@ export const Coding = {
 export const TimelineTDD2 = {
   slide: () =>
   <div>
-    <Image src={images.timeline5.replace("/", "")} margin="1em auto" width="100%"></Image>   
+    <Image src={images.timeline5.replace("/", "")} margin="1em auto" width="100%"></Image>
     <Appear>
       <div>
         <Image src={images.arrow.replace("/", "")} margin="0 auto"></Image>
-        <Image src={images.timeline6.replace("/", "")} margin="1em auto" width="100%"></Image>                
-      </div>      
-    </Appear>    
-     
+        <Image src={images.timeline6.replace("/", "")} margin="1em auto" width="100%"></Image>
+      </div>
+    </Appear>
+
   </div>
 };
 
 export const ZoomOut = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} fit>
         Let&#39;s Zoom Back Out
@@ -138,24 +152,24 @@ export const ZoomOut = {
       <Heading size={1} fit>
         And look at the bigger picture
       </Heading>
-    </div>      
+    </div>
 };
 
 export const TimelineTDD3 = {
   slide: () =>
   <div>
-    <Image src={images.timeline7.replace("/", "")} margin="1em auto" width="100%"></Image>   
+    <Image src={images.timeline7.replace("/", "")} margin="1em auto" width="100%"></Image>
     <Appear>
       <div>
         <Image src={images.arrow.replace("/", "")} margin="0 auto"></Image>
-        <Image src={images.timeline8.replace("/", "")} margin="1em auto" width="100%"></Image>                
-      </div>      
-    </Appear>         
+        <Image src={images.timeline8.replace("/", "")} margin="1em auto" width="100%"></Image>
+      </div>
+    </Appear>
   </div>
 };
 
 export const IfComplicated = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} fit>
         If your code is Complex...
@@ -170,17 +184,17 @@ export const IfComplicated = {
         ...You&#39;re gonna miss something.
       </Heading>
       </Appear>
-    </div>      
+    </div>
 };
-    
+
 export const DeepIf = {
-  slide: () => 
+  slide: () =>
     <CodePane lang="javascript" source={require("raw!./../assets/codeSamples/deep_if.example")}  />
 };
-    
+
 
 export const SpeedBenefits = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1}>
         Speed Benefits:
@@ -190,15 +204,5 @@ export const SpeedBenefits = {
         <Appear><ListItem>Faster Coding Step</ListItem></Appear>
         <Appear><ListItem>Fewer Disasters</ListItem></Appear>
       </List>
-    </div>      
+    </div>
 };
-
-
-
-
-
-  
-
-
-
-
