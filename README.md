@@ -1,6 +1,13 @@
 # TDD: Write Better Code Faster
 This repository is the source code for my presentation *Test Driven Development: Write Better Code Faster*.
 
+## PDF version
+
+A (hopefully recent-ish) PDF version of the presentation is available
+in the file [presentation.pdf](https://github.com/IdahoEv/prez-tdd-code-faster/blob/master/presentation.pdf).
+
+If it's not up to date you can always clone the presentation repo, run the server, use the [spectacle PDF generator](https://github.com/FormidableLabs/spectacle#pdf-export), and issue a pull request.  ;-)
+
 ## Running the presentation
 
 The tool used to write this presentation is [spectacle](https://github.com/FormidableLabs/spectacle) a React based presentation library.
